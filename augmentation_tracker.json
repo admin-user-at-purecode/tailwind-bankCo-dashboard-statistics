@@ -72,7 +72,7 @@
       "description": "holding the main components of the page",
       "children": {
         "SummaryV2 ": {
-          "count": 1,
+          "count": 2,
           "location": "below the header",
           "description": "In the summary, there is a graph displaying data related to each month.",
           "children":{
@@ -184,7 +184,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["SummaryV2 is added"]
     }
   }
 }
