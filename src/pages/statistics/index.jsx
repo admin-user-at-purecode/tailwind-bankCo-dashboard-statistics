@@ -5,11 +5,13 @@ import Efficiency from "../../component/revenueFlow/Efficiency";
 import SummaryV2 from "../../component/summary/SummaryV2";
 import LocationV2 from "../../component/location";
 import TaskSummary from "../../component/summary/TaskSummary";
+import TotalWidgetV2 from "../../component/widget/TotalWidgetV2";
 
 function Statistics() {
   return (
     <main className="w-full px-6 pb-6 pt-[100px] sm:pt-[156px] xl:px-12 xl:pb-12">
-      {/* write your code here */}
+      <TotalWidgetV2/>
+      <br/>
       <div className="2xl:flex 2xl:space-x-[48px]">
         <section className="2xl:flex-1 2xl:mb-0 mb-6">
           <div className="w-full mb-[24px] xl:flex xl:space-x-[24px]">

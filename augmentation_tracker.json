@@ -85,9 +85,14 @@
         }
       }
         },
+        "TotalWidgetV2":{
+          "count":4,
+          "location":"bottom of the header",
+          "description":"2 x 2 grid"
+        },
         "Efficiency": {
           "count": 1,
-          "location": "to the bottom of the header, right of the SummaryV2",
+          "location": "to the bottom of the TotalWidgetV2",
           "children": {
             "MonthFilter": {
               "count": 1,
@@ -184,7 +189,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["TotalWidgetV2 added"]
     }
   }
 }
