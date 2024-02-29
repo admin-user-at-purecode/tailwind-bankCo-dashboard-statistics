@@ -111,8 +111,8 @@
               "description": "dropdown list"
             },
             "TaskSummary": {
-              "count": 1,
-              "location": "to the bottom of the Efficiency",
+              "count": 2,
+              "location": "to the bottom of the Efficiency and one component is below the calendar",
               "description": "summary of the task"
             }
           }
@@ -184,7 +184,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["TaskSummary is added"]
     }
   }
 }
