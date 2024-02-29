@@ -175,16 +175,16 @@
           }
         },
         "Calender": {
-          "count": 1,
+          "count": 2,
           "description": "a calender component",
-          "location": "to the bottom of the Wallet component"
+          "location": "to the bottom of the Wallet component and one component is below the header"
         }
       }
     },
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["calender is added"]
     }
   }
 }
