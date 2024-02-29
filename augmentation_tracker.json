@@ -150,6 +150,10 @@
                 }
               }
             },
+            "Location":{
+              "count":1,
+              "location":"bottom of the page"
+            },
         "Wallet": {
           "count": 1,
           "location": "to the right of the Summary component",
@@ -184,7 +188,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": ["TaskSummary is added"]
+      "screen_and_layout_augmentations": ["Location is added"]
     }
   }
 }
