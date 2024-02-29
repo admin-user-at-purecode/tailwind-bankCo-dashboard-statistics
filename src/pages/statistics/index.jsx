@@ -28,6 +28,8 @@ function Statistics() {
           <Calender />
         </section>
       </div>
+      <br/>
+      <ListTab />
     </main>
   );
 }

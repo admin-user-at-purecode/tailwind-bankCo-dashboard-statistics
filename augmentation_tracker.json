@@ -118,7 +118,7 @@
           }
         },
         "ListTab": {
-          "count": 1,
+          "count": 2,
           "location": "at the bottom of the summary and Location",
           "description": "table containing four columns",
           "children": {
@@ -184,7 +184,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["ListTab is added"]
     }
   }
 }
