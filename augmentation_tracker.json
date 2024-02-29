@@ -102,8 +102,8 @@
           }
         },
         "LocationV2 ": {
-          "count": 1,
-          "location": "bottom of the SummaryV2 and Efficiency",
+          "count": 2,
+          "location": "bottom of the SummaryV2 and Efficiency and one is below the ListTab",
           "children": {
             "YearFilter": {
               "count": 1,
@@ -184,7 +184,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["LocationV2 is added"]
     }
   }
 }
