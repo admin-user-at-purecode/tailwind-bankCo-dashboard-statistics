@@ -152,7 +152,7 @@
             },
         "Wallet": {
           "count": 1,
-          "location": "to the right of the Summary component",
+          "location": "to the right of the Summary component and one component is below the listtab",
           "description": "simple card, like atm card",
           "children": {
             "PaymentSelect": {
@@ -184,7 +184,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["Wallet is added"]
     }
   }
 }
