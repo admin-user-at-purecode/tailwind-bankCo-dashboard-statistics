@@ -150,6 +150,17 @@
                 }
               }
             },
+            "Summary": {
+              "count": 1,
+              "location": "bottom of the Listtab",
+              "children": {
+                  "DateFilter": {
+                      "count": 1,
+                      "location": "top-right of the container",
+                      "description": "dropdown list"
+                  }
+                }
+             },
         "Wallet": {
           "count": 1,
           "location": "to the right of the Summary component",
@@ -184,7 +195,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["summary is added"]
     }
   }
 }

@@ -5,6 +5,7 @@ import Efficiency from "../../component/revenueFlow/Efficiency";
 import SummaryV2 from "../../component/summary/SummaryV2";
 import LocationV2 from "../../component/location";
 import TaskSummary from "../../component/summary/TaskSummary";
+import Summary from "../../component/summary";
 
 function Statistics() {
   return (
@@ -28,6 +29,8 @@ function Statistics() {
           <Calender />
         </section>
       </div>
+      <br/>
+      <Summary /> 
     </main>
   );
 }
