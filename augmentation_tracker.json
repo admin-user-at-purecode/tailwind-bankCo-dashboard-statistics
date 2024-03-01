@@ -173,18 +173,13 @@
               "description": "dropdown list"
             }
           }
-        },
-        "Calender": {
-          "count": 1,
-          "description": "a calender component",
-          "location": "to the bottom of the Wallet component"
         }
       }
     },
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["remove calender from Statistics"]
     }
   }
 }
