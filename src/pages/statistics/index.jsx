@@ -4,12 +4,10 @@ import Calender from "../../component/calender";
 import Efficiency from "../../component/revenueFlow/Efficiency";
 import SummaryV2 from "../../component/summary/SummaryV2";
 import LocationV2 from "../../component/location";
-import TaskSummary from "../../component/summary/TaskSummary";
 
 function Statistics() {
   return (
     <main className="w-full px-6 pb-6 pt-[100px] sm:pt-[156px] xl:px-12 xl:pb-12">
-      {/* write your code here */}
       <div className="2xl:flex 2xl:space-x-[48px]">
         <section className="2xl:flex-1 2xl:mb-0 mb-6">
           <div className="w-full mb-[24px] xl:flex xl:space-x-[24px]">
@@ -18,7 +16,6 @@ function Statistics() {
           </div>
           <div className="w-full mb-[24px] flex space-x-[24px]">
             <LocationV2 />
-            <TaskSummary />
           </div>
 
           <ListTab />
