@@ -70,18 +70,11 @@
       "count": 1,
       "location": "below the header, to the right of the SideBar",
       "description": "holding the main components of the page",
-      "children": {
-        "SummaryV2 ": {
-          "count": 1,
-          "location": "below the header",
-          "description": "In the summary, there is a graph displaying data related to each month.",
           "children":{
             "MonthFilter":{
               "count":1,
               "location":"top of the container",
               "description":"dropdown list"
-            }
-          }
         }
       }
         },
@@ -184,7 +177,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["SummaryV2 remove from Statistics "]
     }
   }
 }
