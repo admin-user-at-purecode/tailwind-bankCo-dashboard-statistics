@@ -6,7 +6,6 @@ import NotificationPopup from "./NotificationPopup";
 import ProfilePopup from "./ProfilePopup";
 import StorePopUp from "./StorePopUp";
 import ToggleBtn from "./ToggleBtn";
-import ModeToggler from "./ModeToggler";
 
 function HeaderOne({ handleSidebar }) {
     const [popup, setPopup] = useState(false);
@@ -67,7 +66,6 @@ function HeaderOne({ handleSidebar }) {
                                     popup ? "block" : "hidden"
                                 }`}
                             ></div>
-                            <ModeToggler />
                             <ToggleBtn
                                 name="notification"
                                 clickHandler={handlePopup}
