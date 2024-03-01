@@ -33,12 +33,42 @@
     "HeaderOne": {
       "count": 1,
       "location": "to the top of the container",
-      "description": "visible on the large screen",
+      "description": "header for large screen",
       "children": {
         "SearchBar": {
           "count": 1,
           "location": "placed centered",
           "description": "user can enter input"
+        },
+        "ModeToggler": {
+          "count": 1,
+          "location": "to the right of the SearchBar",
+          "description": "theme toggle button",
+          "functionality": "toggles the global theme"
+        },
+        "ToggleBtn": {
+          "count": 3,
+          "location": "to the right of the ModeToggler button",
+          "description": "on clicked opens popup",
+          "children": {
+            "NotificationPopup": {
+              "count": 1,
+              "description": "opens on first toggle button clicked"
+            },
+            "StorePopUp": {
+              "count": 1,
+              "description": "opens on third toggle button clicked"
+            }
+          }
+        },
+        "Author": {
+          "count": 1,
+          "location": "to the right of the ToggleBtn",
+          "description": "opens the popup containing user basic information"
+        },
+        "ProfilePopup": {
+          "count": 1,
+          "description": "opens a dropdown of some navs"
         }
       },
       "children_orientation_description": "flexed"
@@ -184,7 +214,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["MassagePopup remove from header"]
     }
   }
 }
