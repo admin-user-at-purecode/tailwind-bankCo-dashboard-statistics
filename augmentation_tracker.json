@@ -103,7 +103,7 @@
         },
         "LocationV2 ": {
           "count": 1,
-          "location": "bottom of the SummaryV2 and Efficiency",
+          "location": "bottom of the Efficiency",
           "children": {
             "YearFilter": {
               "count": 1,
@@ -112,7 +112,7 @@
             },
             "TaskSummary": {
               "count": 1,
-              "location": "to the bottom of the Efficiency",
+              "location": "to the bottom of the SummaryV2",
               "description": "summary of the task"
             }
           }
@@ -184,7 +184,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["Swipe LocationV2 and TaskSummary from left to right"]
     }
   }
 }

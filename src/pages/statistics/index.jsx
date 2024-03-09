@@ -17,8 +17,8 @@ function Statistics() {
             <Efficiency height="h-[180px]" />
           </div>
           <div className="w-full mb-[24px] flex space-x-[24px]">
-            <LocationV2 />
             <TaskSummary />
+            <LocationV2 />
           </div>
 
           <ListTab />
