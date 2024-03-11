@@ -103,7 +103,7 @@
         },
         "LocationV2 ": {
           "count": 1,
-          "location": "bottom of the SummaryV2 and Efficiency",
+          "location": "at the bottom of the ListTab",
           "children": {
             "YearFilter": {
               "count": 1,
@@ -112,14 +112,14 @@
             },
             "TaskSummary": {
               "count": 1,
-              "location": "to the bottom of the Efficiency",
+              "location": "at the bottom of the ListTab",
               "description": "summary of the task"
             }
           }
         },
         "ListTab": {
           "count": 1,
-          "location": "at the bottom of the summary and Location",
+          "location": " bottom of the SummaryV2 and Efficiency",
           "description": "table containing four columns",
           "children": {
             "Search": {
@@ -184,7 +184,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["swipe the position of ListTab , LocationV2 and TaskSummary"]
     }
   }
 }
