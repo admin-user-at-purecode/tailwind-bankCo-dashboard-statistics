@@ -73,7 +73,7 @@
       "children": {
         "SummaryV2 ": {
           "count": 1,
-          "location": "below the header",
+          "location": "below the ListTab",
           "description": "In the summary, there is a graph displaying data related to each month.",
           "children":{
             "MonthFilter":{
@@ -87,7 +87,7 @@
         },
         "Efficiency": {
           "count": 1,
-          "location": "to the bottom of the header, right of the SummaryV2",
+          "location": "below the ListTab",
           "children": {
             "MonthFilter": {
               "count": 1,
@@ -119,7 +119,7 @@
         },
         "ListTab": {
           "count": 1,
-          "location": "at the bottom of the summary and Location",
+          "location": "at the bottom of the header",
           "description": "table containing four columns",
           "children": {
             "Search": {
@@ -184,7 +184,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["swipe the position of ListTab , SummaryV2 and Efficiency"]
     }
   }
 }
