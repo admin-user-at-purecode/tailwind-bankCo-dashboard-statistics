@@ -112,7 +112,7 @@
             },
             "TaskSummary": {
               "count": 1,
-              "location": "to the bottom of the Efficiency",
+              "location": " to the bottom of the Wallet component",
               "description": "summary of the task"
             }
           }
@@ -177,14 +177,14 @@
         "Calender": {
           "count": 1,
           "description": "a calender component",
-          "location": "to the bottom of the Wallet component"
+          "location": "to the bottom of the Efficiency"
         }
       }
     },
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["swipe the position of calender and TaskSummary"]
     }
   }
 }
