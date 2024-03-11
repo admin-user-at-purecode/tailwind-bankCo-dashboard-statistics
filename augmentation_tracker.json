@@ -87,7 +87,7 @@
         },
         "Efficiency": {
           "count": 1,
-          "location": "to the bottom of the header, right of the SummaryV2",
+          "location": " to the bottom of the Wallet component",
           "children": {
             "MonthFilter": {
               "count": 1,
@@ -177,14 +177,14 @@
         "Calender": {
           "count": 1,
           "description": "a calender component",
-          "location": "to the bottom of the Wallet component"
+          "location": "to the bottom of the header, right of the SummaryV2"
         }
       }
     },
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["swipe the position of Efficiency and calender"]
     }
   }
 }
