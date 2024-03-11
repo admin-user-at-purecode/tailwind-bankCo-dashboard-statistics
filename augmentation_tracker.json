@@ -152,7 +152,7 @@
             },
         "Wallet": {
           "count": 1,
-          "location": "to the right of the Summary component",
+          "location": "to the bottom of the Wallet component",
           "description": "simple card, like atm card",
           "children": {
             "PaymentSelect": {
@@ -177,14 +177,14 @@
         "Calender": {
           "count": 1,
           "description": "a calender component",
-          "location": "to the bottom of the Wallet component"
+          "location": "to the right of the Summary component"
         }
       }
     },
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["swipe the position of Wallet and calender"]
     }
   }
 }
