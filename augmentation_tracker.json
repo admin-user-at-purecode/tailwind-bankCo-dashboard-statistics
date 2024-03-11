@@ -73,83 +73,83 @@
       "children": {
         "SummaryV2 ": {
           "count": 1,
-          "location": "below the header",
+          "location": "to the bottom of the Wallet component",
           "description": "In the summary, there is a graph displaying data related to each month.",
-          "children":{
-            "MonthFilter":{
-              "count":1,
-              "location":"top of the container",
-              "description":"dropdown list"
+          "children": {
+            "MonthFilter": {
+              "count": 1,
+              "location": "top of the container",
+              "description": "dropdown list"
             }
           }
         }
       }
-        },
-        "Efficiency": {
+    },
+    "Efficiency": {
+      "count": 1,
+      "location": "to the bottom of the header, right of the SummaryV2",
+      "children": {
+        "MonthFilter": {
           "count": 1,
-          "location": "to the bottom of the header, right of the SummaryV2",
-          "children": {
-            "MonthFilter": {
-              "count": 1,
-              "location": "top right of the container",
-              "description": "dropdown list"
-            },
-            "PieChart": {
-              "count": 1,
-              "location": "bottom of the MonthFilter",
-              "description": "contains graphical representation in Donut"
-            }
-          }
+          "location": "top right of the container",
+          "description": "dropdown list"
         },
-        "LocationV2 ": {
+        "PieChart": {
           "count": 1,
-          "location": "bottom of the SummaryV2 and Efficiency",
-          "children": {
-            "YearFilter": {
-              "count": 1,
-              "location": "top-right of the container",
-              "description": "dropdown list"
-            },
-            "TaskSummary": {
-              "count": 1,
-              "location": "to the bottom of the Efficiency",
-              "description": "summary of the task"
-            }
-          }
+          "location": "bottom of the MonthFilter",
+          "description": "contains graphical representation in Donut"
+        }
+      }
+    },
+    "LocationV2 ": {
+      "count": 1,
+      "location": "bottom of the SummaryV2 and Efficiency",
+      "children": {
+        "YearFilter": {
+          "count": 1,
+          "location": "top-right of the container",
+          "description": "dropdown list"
         },
-        "ListTab": {
+        "TaskSummary": {
           "count": 1,
-          "location": "at the bottom of the summary and Location",
-          "description": "table containing four columns",
+          "location": "to the bottom of the Efficiency",
+          "description": "summary of the task"
+        }
+      }
+    },
+    "ListTab": {
+      "count": 1,
+      "location": "at the bottom of the summary and Location",
+      "description": "table containing four columns",
+      "children": {
+        "Search": {
+          "count": 1,
+          "location": "top of the container",
+          "description": "input element"
+        },
+        "Filter": {
+          "count": 1,
+          "location": "to the right of the container",
+          "description": "dropdown list",
           "children": {
-            "Search": {
+            "FilterFull": {
               "count": 1,
-              "location": "top of the container",
-              "description": "input element"
-            },
-            "Filter": {
-              "count": 1,
-              "location": "to the right of the container",
-              "description": "dropdown list",
+              "location": "bottom of the search component",
+              "description": "component of filters",
               "children": {
-                "FilterFull": {
-                  "count": 1,
-                  "location": "bottom of the search component",
-                  "description": "component of filters",
-                  "children": {
-                    "SelectFilter": {
-                      "count": 4,
-                      "description": "flexed in rows",
-                      "Pagination": {
-                        "count": 1,
-                        "location": "to the bottom of the component",
-                        "description": "simple pagination"
-                      }
-                    }
+                "SelectFilter": {
+                  "count": 4,
+                  "description": "flexed in rows",
+                  "Pagination": {
+                    "count": 1,
+                    "location": "to the bottom of the component",
+                    "description": "simple pagination"
                   }
                 }
               }
-            },
+            }
+          }
+        },
         "Wallet": {
           "count": 1,
           "location": "to the right of the Summary component",
@@ -177,14 +177,16 @@
         "Calender": {
           "count": 1,
           "description": "a calender component",
-          "location": "to the bottom of the Wallet component"
+          "location": " below the header"
         }
       }
     },
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": [
+        "swipe the position of SummaryV2 and calender"
+      ]
     }
   }
 }
