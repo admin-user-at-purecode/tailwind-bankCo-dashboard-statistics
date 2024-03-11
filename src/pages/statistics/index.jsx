@@ -13,12 +13,13 @@ function Statistics() {
       <div className="2xl:flex 2xl:space-x-[48px]">
         <section className="2xl:flex-1 2xl:mb-0 mb-6">
           <div className="w-full mb-[24px] xl:flex xl:space-x-[24px]">
-            <SummaryV2 />
-            <Efficiency height="h-[180px]" />
+          <LocationV2 />
+            <TaskSummary />
+          
           </div>
           <div className="w-full mb-[24px] flex space-x-[24px]">
-            <LocationV2 />
-            <TaskSummary />
+          <SummaryV2 />
+            <Efficiency height="h-[180px]" />
           </div>
 
           <ListTab />
