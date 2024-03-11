@@ -87,7 +87,7 @@
         },
         "Efficiency": {
           "count": 1,
-          "location": "to the bottom of the header, right of the SummaryV2",
+          "location": "to the bottom of the Efficiency",
           "children": {
             "MonthFilter": {
               "count": 1,
@@ -112,7 +112,7 @@
             },
             "TaskSummary": {
               "count": 1,
-              "location": "to the bottom of the Efficiency",
+              "location": "to the bottom of the header, right of the SummaryV2",
               "description": "summary of the task"
             }
           }
@@ -184,7 +184,7 @@
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["swipe the position of Efficiency and TaskSummary"]
     }
   }
 }
