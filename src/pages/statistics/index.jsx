@@ -9,7 +9,6 @@ import TaskSummary from "../../component/summary/TaskSummary";
 function Statistics() {
   return (
     <main className="w-full px-6 pb-6 pt-[100px] sm:pt-[156px] xl:px-12 xl:pb-12">
-      {/* write your code here */}
       <div className="2xl:flex 2xl:space-x-[48px]">
         <section className="2xl:flex-1 2xl:mb-0 mb-6">
           <div className="w-full mb-[24px] xl:flex xl:space-x-[24px]">
