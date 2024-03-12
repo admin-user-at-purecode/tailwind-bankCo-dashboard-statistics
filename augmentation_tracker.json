@@ -112,7 +112,7 @@
             },
             "TaskSummary": {
               "count": 1,
-              "location": "to the bottom of the Efficiency",
+              "location": "to the bottom of the listtab",
               "description": "summary of the task"
             }
           }
@@ -182,7 +182,7 @@
       }
     },
 
-    "sizing_updates": [".."],
+    "sizing_updates": ["resize the TaskSummary component"],
     "Author": {
       "screen_and_layout_augmentations": [""]
     }
