@@ -182,9 +182,9 @@
       }
     },
 
-    "sizing_updates": [".."],
+    "sizing_updates": ["resize the SummaryV2 component"],
     "Author": {
-      "screen_and_layout_augmentations": ["resize the SummaryV2"]
+      "screen_and_layout_augmentations": [""]
     }
   }
 }
