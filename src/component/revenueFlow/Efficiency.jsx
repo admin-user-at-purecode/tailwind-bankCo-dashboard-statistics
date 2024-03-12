@@ -4,7 +4,7 @@ import MonthFilter from "../forms/MonthFilter";
 function Efficiency({ width, height }) {
   return (
     <div className="hidden flex-1 xl:block">
-      <div className="rounded-lg bg-white dark:bg-darkblack-600">
+      <div className="rounded-lg bg-white dark:bg-darkblack-600 ">
         <div className="flex items-center justify-between border-b border-bgray-300 px-[20px] py-[12px] dark:border-darkblack-400">
           <h3 className="text-xl font-bold text-bgray-900 dark:text-white">
             Efficiency

@@ -17,12 +17,10 @@ function SummaryV2() {
   const chartRef = useRef(null);
 
   useEffect(() => {
-    // // Get canvas context and create gradient
     const ctx = chartRef?.current?.getContext("2d")?.chart.ctx;
 
     if (ctx) {
       const gradient = createGradient(ctx);
-      // Update chart data and options
       chartRef.current.data.datasets[0].backgroundColor = gradient;
       chartRef.current.update();
     }
@@ -115,9 +113,6 @@ function SummaryV2() {
         display: false,
         text: "Visitor: 2k",
       },
-      // tooltip: {
-      //   enabled: false,
-      // },
     },
     elements: {
       point: {
@@ -128,7 +123,7 @@ function SummaryV2() {
   };
 
   return (
-    <div className="xl:w-66 w-full bg-white dark:bg-darkblack-600 flex flex-col justify-between rounded-lg px-6 py-3">
+    <div className=" w-full bg-white dark:bg-darkblack-600 flex flex-col justify-between rounded-lg px-6 py-3">
       <div className="flex justify-between items-center pb-2 mb-2 border-b border-bgray-300">
         <h3 className="text-bgray-900 dark:text-white sm:text-2xl text-xl font-bold">
           Summary
