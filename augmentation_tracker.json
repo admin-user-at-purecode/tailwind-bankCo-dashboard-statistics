@@ -103,7 +103,7 @@
         },
         "LocationV2 ": {
           "count": 1,
-          "location": "bottom of the SummaryV2 and Efficiency",
+          "location": "bottom of the SummaryV2",
           "children": {
             "YearFilter": {
               "count": 1,
@@ -112,7 +112,7 @@
             },
             "TaskSummary": {
               "count": 1,
-              "location": "to the bottom of the Efficiency",
+              "location": "to the bottom of the Wallet component ",
               "description": "summary of the task"
             }
           }
@@ -176,15 +176,15 @@
         },
         "Calender": {
           "count": 1,
-          "description": "a calender component",
-          "location": "to the bottom of the Wallet component"
+          "description": "a calender component ",
+          "location": "to the bottom of the Efficiency"
         }
       }
     },
 
     "sizing_updates": [".."],
     "Author": {
-      "screen_and_layout_augmentations": [""]
+      "screen_and_layout_augmentations": ["swipe the position of LocationV2 , TaskSummary and calender"]
     }
   }
 }
