@@ -228,9 +228,9 @@
       }
     },
 
-    "sizing_updates": [".."],
+    "sizing_updates": ["resize the Efficiency component"],
     "Author": {
-      "screen_and_layout_augmentations": ["resize the Efficiency component"]
+      "screen_and_layout_augmentations": [""]
     }
   }
 }
